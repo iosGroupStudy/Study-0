@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E17E87F52472D1CC00ABA975 /* Hi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17E87F52472D1CC00ABA975 /* Baemin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baemin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17E87F82472D1CC00ABA975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E17E87FC2472D1CC00ABA975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E17E88012472D1CD00ABA975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		E17E87EC2472D1CC00ABA975 = {
 			isa = PBXGroup;
 			children = (
-				E17E87F72472D1CC00ABA975 /* Hi */,
+				E17E87F72472D1CC00ABA975 /* Baemin */,
 				E17E87F62472D1CC00ABA975 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +44,12 @@
 		E17E87F62472D1CC00ABA975 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E17E87F52472D1CC00ABA975 /* Hi.app */,
+				E17E87F52472D1CC00ABA975 /* Baemin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E17E87F72472D1CC00ABA975 /* Hi */ = {
+		E17E87F72472D1CC00ABA975 /* Baemin */ = {
 			isa = PBXGroup;
 			children = (
 				E17E87F82472D1CC00ABA975 /* AppDelegate.swift */,
@@ -58,15 +58,15 @@
 				E17E88032472D1CD00ABA975 /* LaunchScreen.storyboard */,
 				E17E88062472D1CD00ABA975 /* Info.plist */,
 			);
-			path = Hi;
+			path = Baemin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E17E87F42472D1CC00ABA975 /* Hi */ = {
+		E17E87F42472D1CC00ABA975 /* Baemin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E17E88092472D1CD00ABA975 /* Build configuration list for PBXNativeTarget "Hi" */;
+			buildConfigurationList = E17E88092472D1CD00ABA975 /* Build configuration list for PBXNativeTarget "Baemin" */;
 			buildPhases = (
 				E17E87F12472D1CC00ABA975 /* Sources */,
 				E17E87F22472D1CC00ABA975 /* Frameworks */,
@@ -76,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = Hi;
+			name = Baemin;
 			productName = Hi;
-			productReference = E17E87F52472D1CC00ABA975 /* Hi.app */;
+			productReference = E17E87F52472D1CC00ABA975 /* Baemin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E17E87F02472D1CC00ABA975 /* Build configuration list for PBXProject "Hi" */;
+			buildConfigurationList = E17E87F02472D1CC00ABA975 /* Build configuration list for PBXProject "Baemin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E17E87F42472D1CC00ABA975 /* Hi */,
+				E17E87F42472D1CC00ABA975 /* Baemin */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E17E87F02472D1CC00ABA975 /* Build configuration list for PBXProject "Hi" */ = {
+		E17E87F02472D1CC00ABA975 /* Build configuration list for PBXProject "Baemin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E17E88072472D1CD00ABA975 /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E17E88092472D1CD00ABA975 /* Build configuration list for PBXNativeTarget "Hi" */ = {
+		E17E88092472D1CD00ABA975 /* Build configuration list for PBXNativeTarget "Baemin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E17E880A2472D1CD00ABA975 /* Debug */,
