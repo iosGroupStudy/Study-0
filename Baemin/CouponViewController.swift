@@ -24,7 +24,7 @@ class CouponViewController: UIViewController, UITextFieldDelegate {
         button.addTarget(self, action:#selector(self.buttonClicked), for: .touchUpInside)
         textField.frame = CGRect(x: 150, y: 200, width: 100, height: 50)
         textField.backgroundColor = .blue
-        textField.addTarget(self, action: #selector(self.tf), for: .editingDidEndOnExit)
+        textField.addTarget(serlf, action: #selector(self.tf), for: .editingDidEndOnExit)
         textField.delegate = self
 
         view.addSubview(textField)

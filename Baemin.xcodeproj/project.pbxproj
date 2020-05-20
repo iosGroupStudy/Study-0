@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		E17E87F92472D1CC00ABA975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E87F82472D1CC00ABA975 /* AppDelegate.swift */; };
-		E17E87FD2472D1CC00ABA975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E87FC2472D1CC00ABA975 /* ViewController.swift */; };
+		E17E87FD2472D1CC00ABA975 /* CouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E87FC2472D1CC00ABA975 /* CouponViewController.swift */; };
 		E17E88022472D1CD00ABA975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17E88012472D1CD00ABA975 /* Assets.xcassets */; };
 		E17E88052472D1CD00ABA975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17E88032472D1CD00ABA975 /* LaunchScreen.storyboard */; };
+		E17E880E2474038100ABA975 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17E880D2474038100ABA975 /* Coupon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E17E87F52472D1CC00ABA975 /* Baemin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baemin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17E87F82472D1CC00ABA975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E17E87FC2472D1CC00ABA975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E17E87FC2472D1CC00ABA975 /* CouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponViewController.swift; sourceTree = "<group>"; };
 		E17E88012472D1CD00ABA975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17E88042472D1CD00ABA975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E17E88062472D1CD00ABA975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17E880D2474038100ABA975 /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +54,22 @@
 		E17E87F72472D1CC00ABA975 /* Baemin */ = {
 			isa = PBXGroup;
 			children = (
+				E17E880C2474036D00ABA975 /* Models */,
 				E17E87F82472D1CC00ABA975 /* AppDelegate.swift */,
-				E17E87FC2472D1CC00ABA975 /* ViewController.swift */,
+				E17E87FC2472D1CC00ABA975 /* CouponViewController.swift */,
 				E17E88012472D1CD00ABA975 /* Assets.xcassets */,
 				E17E88032472D1CD00ABA975 /* LaunchScreen.storyboard */,
 				E17E88062472D1CD00ABA975 /* Info.plist */,
 			);
 			path = Baemin;
+			sourceTree = "<group>";
+		};
+		E17E880C2474036D00ABA975 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E17E880D2474038100ABA975 /* Coupon.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17E87FD2472D1CC00ABA975 /* ViewController.swift in Sources */,
+				E17E880E2474038100ABA975 /* Coupon.swift in Sources */,
+				E17E87FD2472D1CC00ABA975 /* CouponViewController.swift in Sources */,
 				E17E87F92472D1CC00ABA975 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

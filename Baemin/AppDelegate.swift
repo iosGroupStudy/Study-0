@@ -11,14 +11,12 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
     var window: UIWindow?
     
+    // 개념: 앱의 시작점. 앱이 실행되기 직전에 불린다.
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         window = UIWindow()
         let vc = CouponViewController()
-        vc.view.backgroundColor = .red
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
         return true
